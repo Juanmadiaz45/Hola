@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Visionarios3000" id="FDFE5766-4AFA-2F0C-E008-F99CB02D0983" version="3.5">
+<createdBy>USUARIO</createdBy>
+<createdTime>2024-02-18 16:23:04 UTC</createdTime>
+<ownerDesignName>Visionarios3000</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>FDFE5766-4AFA-2F0C-E008-F99CB02D0983</designId>
+</OSDM_Design>

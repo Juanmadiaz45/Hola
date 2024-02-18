@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D2957171-753A-7141-1F13-9035747FBE04" name="Programa">
+<createdBy>USUARIO</createdBy>
+<createdTime>2024-02-18 16:38:50 UTC</createdTime>
+<ownerDesignName>Visionarios3000</ownerDesignName>
+<engineerTo>
+<item key="EA134069-E035-4AAE-4088-7FF980A9AD4A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigo" id="9514B90A-FF0D-D20A-8891-1195594CDFA3">
+<createdBy>USUARIO</createdBy>
+<createdTime>2024-02-18 16:39:00 UTC</createdTime>
+<ownerDesignName>Visionarios3000</ownerDesignName>
+<engineerTo>
+<item key="EA134069-E035-4AAE-4088-7FF980A9AD4A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="3FE914F8-D22D-46CD-CA72-419E1B420657">
+<createdBy>USUARIO</createdBy>
+<createdTime>2024-02-18 16:39:38 UTC</createdTime>
+<ownerDesignName>Visionarios3000</ownerDesignName>
+<engineerTo>
+<item key="EA134069-E035-4AAE-4088-7FF980A9AD4A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo" id="074F193C-BABA-659D-F299-4129C6CA8F0D">
+<createdBy>USUARIO</createdBy>
+<createdTime>2024-02-18 16:40:15 UTC</createdTime>
+<ownerDesignName>Visionarios3000</ownerDesignName>
+<engineerTo>
+<item key="EA134069-E035-4AAE-4088-7FF980A9AD4A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id" id="1E4D6FC9-7B74-800B-59D9-F484167F17EB">
+<createdBy>USUARIO</createdBy>
+<createdTime>2024-02-18 19:57:30 UTC</createdTime>
+<generatorID>B62AD2FC-5BDD-4E2F-37DD-BDBA739A43B7</generatorID>
+<ownerDesignName>Visionarios3000</ownerDesignName>
+<engineerTo>
+<item key="EA134069-E035-4AAE-4088-7FF980A9AD4A" value="true"/>
+</engineerTo>
+<referedAttribute>2E2AA8DB-B949-AB93-02E4-D3F1A87B4C8A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8B725A38-9AE4-3AC6-2429-23CBE81745D0" name="Programa PK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2024-02-18 16:39:34 UTC</createdTime>
+<ownerDesignName>Visionarios3000</ownerDesignName>
+<engineerTo>
+<item key="EA134069-E035-4AAE-4088-7FF980A9AD4A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9514B90A-FF0D-D20A-8891-1195594CDFA3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
